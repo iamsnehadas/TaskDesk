@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="showtime();">
+  <img src="download-modified.png" alt="yin/yang" onclick="myFunction()" id="drkbt">
+  <div id="h1h">TaskDesk</div>
+  <br>
+  <div class="sec1">
+    <div class="To-docontainer">
+      <div id="h1st">To-do List</div>
+      <div id="quote">The scariest moment is always just before you start, so just take the leap...</div>
+      <input type="text" id="new-task" placeholder="Add new task...">
+      <button id="add-task">Add Task</button>
+      <ul id="task-list"></ul>
+      <script src="script1.js"></script>
+    </div>
+  </div>
+  <div id="getrow">  
+    <div class="sec4">
+      <div class="clkcontainer">
+        <div class="watch">
+          <div id="h1cl">Clock</div>
+          <div id="quote" ></div>
+          <div id="Show-clock">
+            <div class="clock">
+              <p>
+                <span id="date"></span>
+                <span id="chktime"></span>
+              </p>
+            </div>
+            <script src="script4.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  <br>
+  <div class="sec2">
+    <div class="timcontainer">
+      <div id="h1st">Pomodoro Timer</div>
+      <div class="timer">
+        <div class="session-counter">Session 0</div>
+        <div class="time-display">
+          <span class="minutes">25</span>
+          <span>:</span>
+          <span class="seconds">00</span>
+        </div>
+        <div class="timer-buttons">
+          <button class="start-button">Start</button>
+          <button class="stop-button">Stop</button>
+          <button class="reset-button">Reset</button>
+          <button class="settings-button">Settings</button>
+        </div>
+        <div class="settings">
+          <div class="work-session" id="chset">
+            <label for="work-session">Work Session:</label>
+            <input type="number" id="work-session" min="1" max="180" value="25">
+            <span>minutes</span>
+          </div>
+          <div class="short-break" id="chset">
+            <label for="short-break">Short Break:</label>
+            <input type="number" id="short-break" min="1" max="60" value="5">
+            <span>minutes</span>
+          </div>
+          <div class="long-break" id="chset">
+            <label for="long-break">Long Break:</label>
+            <input type="number" id="long-break" min="1" max="60" value="15">
+            <span>minutes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      <script src="script2.js"></script>
+  </div>
+</div>
+<div id="getrow2">
+  <div class="sec3">
+    <div class="stpwcontainer">
+      <div class="stopwatch">
+        <div id="h1st">Stopwatch</div>
+        <div id="quote"> </div>
+        <span class="displayit">00:00:00:00</span>
+        <div class="buttons">
+          <button class="starting-button">Start</button>
+          <button class="stopping-button">Stop</button>
+          <button class="reseting-button">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script3.js"></script>
+  <div class="sec5">
+    <div class="notecontainer">
+      <div id="h1st">Mini Notes</div>
+      <div id="quote"> </div>
+      <form>
+        <input type="text" id="note" placeholder="Enter your note here...">
+        <button type="submit" id="add-note">Add Note</button>
+      </form>
+      <ul id="notes"></ul>
+    </div>
+  </div>
+  <script src="script5.js"></script>
+</div>
+<footer>
+  <div class="footcont">
+    <div>Copyright &copy; 2023 Sneha Das</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
