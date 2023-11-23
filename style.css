@@ -24,7 +24,7 @@
 #drkbt{
   height: 30px;
   width: auto;
-}
+} 
 body {
   font-family: Arial, sans-serif;
   /*background-color:rgb(0, 0, 0);*/
@@ -139,7 +139,7 @@ body {
   background-color: #f44336;
   color: white;
   cursor: pointer;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
 
@@ -157,7 +157,7 @@ body {
   margin-right: 10px;
   border: none;
   border-radius: 5px;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
 }
 
 .subtask button {
@@ -167,7 +167,7 @@ body {
   background-color: #4c90af;
   color: white;
   cursor: pointer;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
 }
 
 .task input[type="checkbox"],
@@ -220,7 +220,7 @@ input[type="checkbox"]:checked + span {
 span{
   color:antiquewhite;
   text-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
 }
 
 .minutes, .seconds, .displayit, #Show-clock{
@@ -240,7 +240,7 @@ span{
 }
 .displayit{
   font-size: 60px;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
 }
 .start-button, .stop-button, .reset-button, .session-button, .settings-button, .starting-button, .stopping-button, .reseting-button{
   margin: 0 10px;
@@ -251,7 +251,7 @@ span{
   background-color: rgb(10, 49, 11);
   color: white;
   cursor: pointer;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
 .settings-button{
@@ -280,7 +280,7 @@ button:hover {
 
 #chset{
   color: #6862b0;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   background-color: #000000;
   box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
@@ -306,7 +306,7 @@ button:hover {
   margin-bottom: 10px;
   color:tan;
   text-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   height: 5vh;
 }
 
@@ -315,7 +315,7 @@ button:hover {
   opacity: 80%;
   border-radius: 35px;
   padding: 10px;
-  font-family:cursive;
+  font-family: Comic Sans, cursive;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -328,7 +328,7 @@ button:hover {
   font-size: 37px;
 }
 #date,#chktime {
-  font-family:cursive;
+  font-family: Comic Sans, cursive;
   color: rgb(255, 248, 248);
   text-shadow: 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }  
@@ -393,7 +393,7 @@ button[type="submit"]:hover {
   background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(4, 0, 2));
   color: antiquewhite;
   box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   padding: 10 px;
 }
 #notes button{
@@ -403,7 +403,7 @@ button[type="submit"]:hover {
   background-color: #f44336;
   color: white;
   cursor: pointer;
-  font-family: cursive;
+  font-family: Comic Sans, cursive;
   box-shadow: 0 0 6px #ab3131, 0 0 6px #962e2e, 0 0 4px #cc2626, 0 0 4px #e22121;
 }
 
