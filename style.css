@@ -403,7 +403,7 @@ button[type="submit"]:hover {
   background-color: #f44336;
   color: white;
   cursor: pointer;
-  font-family: Comic Sans MS, cursive;
+  font-family: Comic Sans MS;
   box-shadow: 0 0 6px #ab3131, 0 0 6px #962e2e, 0 0 4px #cc2626, 0 0 4px #e22121;
 }
 
