@@ -3,44 +3,16 @@
   justify-content: space-between;
   margin: 30px;
 }
-.light-mode {
-  background: linear-gradient(white, rgba(149, 161, 68, 0.784) ,rgb(186, 154, 28),rgb(159, 65, 15),rgb(77, 27, 2));
-}
-.light-mode .sec1{
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode .sec2{
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode .sec3{
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode .sec4{
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode .sec5{
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-#drkbt{
-  height: 30px;
-  width: auto;
-} 
 body {
   font-family: Arial, sans-serif;
-  /*background-color:rgb(0, 0, 0);*/
-  background: linear-gradient(black,rgba(26, 1, 26, 0.673),black);
-  /*background-image: url(p2.jfif), url(p1.jfif);*/
   background-blend-mode:darken;
   backface-visibility: 50%;
   background-size: cover;
   background-position: 10%;
+  background-color:rgb(189, 224, 93);
 }
 .sec1,.sec2,.sec3,.sec4,.sec5{
-  /*background: linear-gradient(rgba(85, 107, 117, 0.034) ,rgb(42, 73, 101),rgb(10, 33, 52),rgb(0, 2, 4));*/
-  /*background: linear-gradient(rgba(112, 117, 85, 0.784) ,rgb(101, 87, 42),rgb(52, 35, 10),rgb(4, 1, 0));*/
-  /*background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));*/
-  background: linear-gradient(black, rgba(55, 45, 70, 0.784) ,rgb(56, 42, 101),rgb(14, 10, 52),rgb(4, 0, 2));
-  background-color: #f6f7f800;
+  background-color:rgb(236, 246, 210);
   border-radius: 10px;
   box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
   padding: 20px;
@@ -48,46 +20,53 @@ body {
   border: 2px solid rgba(15, 128, 185, 0.821);
 }
 .sec1{
-  flex: 0.9
+  flex: 0.9;
 }
 .sec2{
-  flex:1.9
+  flex:1.9;
 }
 .sec3{
-  flex:1.5
+  flex:1.5;
 }
 #h1h{
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-weight: 800;
   font-size: 70px;
-  color:rgb(255, 255, 255);
-  text-shadow: 0 0 6px #670b0b, 0 0 6px #911111, 0 0 4px #b21e1e, 0 0 4px #a41c1c;
+  color:#384b24;
 }
 #h1st{
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-weight: 800;
   font-size: 50px;
-  color:#ddd;
-  text-shadow: 0 0 6px #670b0b, 0 0 6px #0d0d0d, 0 0 4px #090909, 0 0 4px #0f0e0e;
+  color:#5e5d5d;
+  text-shadow: none;
+}
+#h1st-s{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  color:#5e5d5d;
+  text-shadow: none;
+  margin-bottom: -10%;
+}
+#h1st-m{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  color:#5e5d5d;
+  text-shadow: none;
+  margin-bottom: 10%;
 }
 #h1cl{
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-weight: 800;
   font-size: 50px;
-  color:#ddd;
-  text-shadow: 0 0 6px #670b0b, 0 0 6px #0d0d0d, 0 0 4px #090909, 0 0 4px #0f0e0e;
-}
-.light-mode #h1st{
-  text-shadow: 0 0 6px #67280b, 0 0 6px #0d0d0d, 0 0 4px #090909, 0 0 4px #0f0e0e;
-}
-.light-mode #h1cl{
-  text-shadow: 0 0 6px #67280b, 0 0 6px #0d0d0d, 0 0 4px #090909, 0 0 4px #0f0e0e;
-}
-.light-mode #h1h{
-  text-shadow: 0 0 6px rgb(52, 25, 10), 0 0 6px #0d0d0d, 0 0 4px #f4f0f0, 0 0 4px #0f0e0e;
+  color: #5e5d5d;
 }
 #new-task {
   width: 90%;
@@ -95,7 +74,7 @@ body {
   margin-right: 10px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  border: 2px solid black;
   font-family: Comic Sans MS, cursive;
 }
 
@@ -103,19 +82,21 @@ body {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #0b4042;
+  background-color: #609192;
   font-family: Comic Sans MS, cursive;
-  color: white;
+  color: rgb(6, 6, 6);
   cursor: pointer;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  border: 2px solid black;
+}
+
+#add-task:hover{
+  background-color: #737a7a;
 }
 
 #task-list {
   list-style-type: none;
   padding: 0;
-  background-color: rgb(48, 72, 111);
-  color: antiquewhite;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  color: rgb(196, 170, 136);
   font-family: Comic Sans MS, cursive;
 }
 .task {
@@ -124,7 +105,7 @@ body {
   align-items: center;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
+  border: 2px solid #282727;
   border-radius: 5px;
 }
 
@@ -134,13 +115,11 @@ body {
 
 .task button {
   padding: 5px;
-  border: none;
+  border: 1px solid black;
   border-radius: 5px;
-  background-color: #f44336;
-  color: white;
+  color: rgb(13, 13, 13);
   cursor: pointer;
   font-family: Comic Sans MS, cursive;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
 
 .subtask {
@@ -188,7 +167,6 @@ input[type="checkbox"]:checked + span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*height: 60vh;*/
 }
 
 .timer {
@@ -203,8 +181,7 @@ input[type="checkbox"]:checked + span {
   font-weight: 600;
   font-size: 35px;
   margin-bottom: 10px;
-  color:tan;
-  text-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  color:rgb(118, 118, 104);
   font-family: Comic Sans MS, cursive;
 }
 
@@ -218,25 +195,15 @@ input[type="checkbox"]:checked + span {
   justify-content: center;
 }
 span{
-  color:antiquewhite;
-  text-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  color:rgb(197, 217, 143);
   font-family: Comic Sans MS, cursive;
+  text-shadow: 
+    -1px 0 black, 0 1px black,  1px 0 black,  0 -1px black;
 }
 
 .minutes, .seconds, .displayit, #Show-clock{
   border: #0b4042;
   border-radius: 5px;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
-  background: linear-gradient(black, rgba(55, 45, 70, 0.784) ,rgb(56, 42, 101),rgb(14, 10, 52),rgb(4, 0, 2));
-}
-.light-mode span{
-  background:linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode .displayit{
-  background:linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-}
-.light-mode #Show-clock{
-  background:linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
 }
 .displayit{
   font-size: 60px;
@@ -247,19 +214,16 @@ span{
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 5px;
-  border: none;
-  background-color: rgb(10, 49, 11);
-  color: white;
+  background-color: #c6e9a0;
+  color: rgb(10, 10, 10);
   cursor: pointer;
   font-family: Comic Sans MS, cursive;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
 .settings-button{
-  background-color: #3b0b42;
+  background-color: #764a7d;
 }
-
-button:hover {
-  background-color: rgba(19, 2, 22, 0.893);
+.start-button:hover, .stop-button:hover, .reset-button:hover, .session-button:hover, .settings-button:hover, .starting-button:hover, .stopping-button:hover, .reseting-button:hover{
+  background-color: #a7a8a7;
 }
 
 .settings {
@@ -279,10 +243,8 @@ button:hover {
 }
 
 #chset{
-  color: #6862b0;
+  color: #222322;
   font-family: Comic Sans MS, cursive;
-  background-color: #000000;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
 }
 
 .stpwcontainer {
@@ -304,8 +266,7 @@ button:hover {
   font-style: oblique;
   font-size: 20px;
   margin-bottom: 10px;
-  color:tan;
-  text-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  color:rgb(39, 68, 16);
   font-family: Comic Sans MS, cursive;
   height: 5vh;
 }
@@ -320,7 +281,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   font-size: 30px; /*40,50*/
-  box-shadow: 1px 2px 2px 1px rgba(9, 9, 9, 0.944)
+  box-shadow: 1px 2px 2px 1px rgba(9, 9, 9, 0.944);
+  border: 2px solid #0b4042;
 }
 
 
@@ -362,58 +324,76 @@ input[type="text"] {
   width: 70%;
   padding: 10px;
   border: none;
-  border: 2px solid #d70e0e;
+  border: 2px solid #000;
+  margin-right: 2%;
   font-size: 18px;
   font-family: Comic Sans MS, cursive;
 }
 
 button[type="submit"] {
   padding: 10px 20px;
-  border: none;
-  background:linear-gradient(black, rgba(55, 45, 70, 0.784) ,rgb(56, 42, 101),rgb(14, 10, 52),rgb(4, 0, 2));
-  border: 1px solid #d70e0e;
-  color: #fff;
+  border: 2px solid black;
+  background-color: #764a7d;
+  color: #0b0b0b;
   font-size: 18px;
   cursor: pointer;
   font-family: Comic Sans MS, cursive;
 }
-.light-mode input[type="text"]{
-  border:3px solid burlywood;
-}
-.light-mode button[type="submit"]{
-  background:linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(101, 89, 42),rgb(52, 25, 10),rgb(4, 0, 2));
-  border:1px solid burlywood;
-}
-
 button[type="submit"]:hover {
   background-color: #555;
 }
 #notes{
   list-style-type:circle white;
-  background: linear-gradient(rgba(69, 70, 45, 0.784) ,rgb(4, 0, 2));
-  color: antiquewhite;
-  box-shadow: 0 0 6px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  background-color: #c6e9a0;
+  color: rgb(43, 36, 27);
   font-family: Comic Sans MS, cursive;
   padding: 10 px;
 }
 #notes button{
-  position: relative;
+  position: right;
   border: none;
   border-radius: 5px;
   background-color: #f44336;
   color: white;
   cursor: pointer;
-  font-family: Comic Sans MS;
-  box-shadow: 0 0 6px #ab3131, 0 0 6px #962e2e, 0 0 4px #cc2626, 0 0 4px #e22121;
+  font-family: Comic Sans MS, cursive;
 }
 
 li .note-content {
   max-height: 100px;
-  overflow: hidden;
+  overflow: hidden; 
+  border-bottom: 2px double rgb(80, 120, 19);
+  padding-bottom: 1%;
+  color:black;
 }
 
 footer{
-  color: tan;
+  color: rgb(49, 40, 28);
   font-size: 15px;
   text-align: center;
+}
+body{
+  font-family:Comic Sans MS, cursive;
+}
+
+.del{
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: Comic Sans MS, cursive;
+  background-color: rgb(248, 67, 67);
+}
+.task-text{
+  color:#000000;
+  text-shadow: none;
+}
+.subtask-text{
+  color:#000000;
+  text-shadow: none;
+}
+.more{
+  color: black;
+  text-shadow: none;
 }
