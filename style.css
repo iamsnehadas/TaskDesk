@@ -291,8 +291,7 @@ span{
 }
 #date,#chktime {
   font-family: Comic Sans MS, cursive;
-  color: rgb(255, 248, 248);
-  text-shadow: 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000, 0 0 4px #000000;
+  color: rgb(183, 222, 111);
 }  
 .clock p {
   margin: 0;
