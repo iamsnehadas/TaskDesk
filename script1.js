@@ -24,7 +24,7 @@ function addTask() {
         <button onclick="addSubtask(this)">Add</button>
       </div>
       <ul class="subtask-list"></ul>
-      <button onclick="deleteTask(this)">Delete</button>
+      <button class="del" onclick="deleteTask(this)">X</button>
     `;
     taskList.appendChild(task);
     newTaskInput.value = '';
@@ -33,7 +33,7 @@ function addTask() {
 
 function toggleSubtask(button) {
   const subtask = button.nextElementSibling;
-  subtask.style.display = subtask.style.display === 'none' ? 'block' : 'none';
+  subtask.style.display = subtask.style.display === 'none' ? 'block' : 'block';
 }
 
 function addSubtask(button) {
@@ -44,7 +44,7 @@ function addSubtask(button) {
     subtask.innerHTML = `
       <input type="checkbox">
       <span class="subtask-text">${subtaskText}</span>
-      <button onclick="deleteSubtask(this)">Delete</button>
+      <button class="del" onclick="deleteSubtask(this)">X</button>
     `;
     subtaskList.appendChild(subtask);
     button.previousElementSibling.value = '';
